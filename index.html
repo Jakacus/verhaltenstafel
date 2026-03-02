@@ -139,9 +139,6 @@
             <button class="btn-primary" onclick="unlock()">OK</button>
         </div>
         <div id="pinError"></div>
-        <p style="margin-top:10px;font-size:12px;color:var(--neutral-color);">
-            Hinweis: Die PIN steht aktuell direkt im HTML (einfach anpassen). Für echte Sicherheit braucht man Benutzer-Login.
-        </p>
     </div>
 </div>
 
@@ -217,12 +214,12 @@
      ************************/
 
     // === PIN (bitte anpassen) ===
-    const APP_PIN = "1234"; // <--- HIER eure PIN setzen (z.B. "5821")
+    const APP_PIN = "628"; // <--- HIER eure PIN setzen (z.B. "5821")
 
     // === Supabase (bitte anpassen) ===
-    const SUPABASE_URL = "YOUR_SUPABASE_URL";
-    const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
-    let CLASS_ID = "klasse_5d"; // eindeutiger Schlüssel pro Klasse
+    const SUPABASE_URL = "https://hvumhcgezeshdyhxmwem.supabase.co";
+    const SUPABASE_ANON_KEY = "sb_publishable_xGyDhq4XkFhWd8geZua_6g_jMBrAKdx";
+    let CLASS_ID = "klasse_6d"; // eindeutiger Schlüssel pro Klasse
 
     const CLOUD_ENABLED = !SUPABASE_URL.includes("YOUR_") && !SUPABASE_ANON_KEY.includes("YOUR_");
 
